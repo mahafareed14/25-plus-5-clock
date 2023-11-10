@@ -1,0 +1,37 @@
+.container {
+    max-width: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.setters {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+button {
+    margin: 20px;
+    width: 45px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+span {
+    font-size: 40px;
+}
+
+.display {
+    text-align: center;
+    margin-top: 20px;
+}
